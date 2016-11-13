@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="sudoku.css">
+	<script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
+	<script type="text/javascript" src="sudoku.js"></script>
+	<title></title>
+</head>
+<body>
+	<div>
+		<select>
+			<option value="1">1</option>
+			<option value="2">2</option>
+			<option value="3">3</option>
+			<option value="4">4</option>
+			<option value="5">5</option>
+			<option value="6">6</option>
+			<option value="7">7</option>
+			<option value="8">8</option>
+			<option value="9">9</option>
+		</select>
+	</div>
+	<div id="main_box">
+		<div class = "secondary_box">
+			<div id="row_1">
+				<div class="another_bound">
+					<div id="box_11" class="smallest_unit">
+					</div><div id="box_12" class="smallest_unit">
+					</div><div id="box_13" class="smallest_unit"></div>
+				</div>
+				<div class="another_bound">
+					<div id="box_15" class="smallest_unit">
+					</div><div id="box_14" class="smallest_unit">
+					</div><div id="box_16" class="smallest_unit"></div>
+				</div>
+				<div class="another_bound">
+					<div id="box_17" class="smallest_unit">
+					</div><div id="box_18" class="smallest_unit">
+					</div><div id="box_19" class="smallest_unit"></div>
+				</div>
+			</div><div id="row_2">
+				<div class="another_bound">
+					<div id="box_21" class="smallest_unit">
+					</div><div id="box_22" class="smallest_unit">
+					</div><div id="box_23" class="smallest_unit"></div>
+				</div><div class="another_bound">
+					<div id="box_25" class="smallest_unit">
+					</div><div id="box_24" class="smallest_unit">
+					</div><div id="box_26" class="smallest_unit"></div>
+				</div><div class="another_bound">
+					<div id="box_27" class="smallest_unit">
+					</div><div id="box_28" class="smallest_unit">
+					</div><div id="box_29" class="smallest_unit"></div>
+				</div>
+			</div><div id="row_3">
+				<div class="another_bound">
+					<div id="box_31" class="smallest_unit"></div>
+					<div id="box_32" class="smallest_unit"></div>
+					<div id="box_33" class="smallest_unit"></div>
+				</div>
+				<div class="another_bound">
+					<div id="box_35" class="smallest_unit"></div>
+					<div id="box_34" class="smallest_unit"></div>
+					<div id="box_36" class="smallest_unit"></div>
+				</div>
+				<div class="another_bound">
+					<div id="box_37" class="smallest_unit"></div>
+					<div id="box_38" class="smallest_unit"></div>
+					<div id="box_39" class="smallest_unit"></div>
+				</div>
+			</div>
+		</div><div class="secondary_box">
+			<div id="row_4">
+				<div class="another_bound">
+					<div id="box_41" class="smallest_unit"></div>
+					<div id="box_42" class="smallest_unit"></div>
+					<div id="box_43" class="smallest_unit"></div>
+				</div>
+				<div class="another_bound">
+					<div id="box_45" class="smallest_unit"></div>
+					<div id="box_44" class="smallest_unit"></div>
+					<div id="box_46" class="smallest_unit"></div>
+				</div>
+				<div class="another_bound">
+					<div id="box_47" class="smallest_unit"></div>
+					<div id="box_48" class="smallest_unit"></div>
+					<div id="box_49" class="smallest_unit"></div>
+				</div>
+			</div><div id="row_5">
+				<div class="another_bound">
+					<div id="box_51" class="smallest_unit"></div>
+					<div id="box_52" class="smallest_unit"></div>
+					<div id="box_53" class="smallest_unit"></div>
+				</div>
+				<div class="another_bound">
+					<div id="box_55" class="smallest_unit"></div>
+					<div id="box_54" class="smallest_unit"></div>
+					<div id="box_56" class="smallest_unit"></div>
+				</div>
+				<div class="another_bound">
+					<div id="box_57" class="smallest_unit"></div>
+					<div id="box_58" class="smallest_unit"></div>
+					<div id="box_59" class="smallest_unit"></div>
+				</div>
+			</div><div id="row_6">
+				<div class="another_bound">
+					<div id="box_61" class="smallest_unit"></div>
+					<div id="box_62" class="smallest_unit"></div>
+					<div id="box_63" class="smallest_unit"></div>
+				</div>
+				<div class="another_bound">
+					<div id="box_65" class="smallest_unit"></div>
+					<div id="box_64" class="smallest_unit"></div>
+					<div id="box_66" class="smallest_unit"></div>
+				</div>
+				<div class="another_bound">
+					<div id="box_67" class="smallest_unit"></div>
+					<div id="box_68" class="smallest_unit"></div>
+					<div id="box_69" class="smallest_unit"></div>
+				</div>
+			</div>
+		</div><div class="secondary_box">
+			<div id="row_7">
+				<div class="another_bound">
+					<div id="box_71" class="smallest_unit"></div>
+					<div id="box_72" class="smallest_unit"></div>
+					<div id="box_73" class="smallest_unit"></div>
+				</div>
+				<div class="another_bound">
+					<div id="box_75" class="smallest_unit"></div>
+					<div id="box_74" class="smallest_unit"></div>
+					<div id="box_76" class="smallest_unit"></div>
+				</div>
+				<div class="another_bound">
+					<div id="box_77" class="smallest_unit"></div>
+					<div id="box_78" class="smallest_unit"></div>
+					<div id="box_79" class="smallest_unit"></div>
+				</div>
+			</div><div id="row_8">
+				<div class="another_bound">
+					<div id="box_81" class="smallest_unit"></div>
+					<div id="box_82" class="smallest_unit"></div>
+					<div id="box_83" class="smallest_unit"></div>
+				</div>
+				<div class="another_bound">
+					<div id="box_85" class="smallest_unit"></div>
+					<div id="box_84" class="smallest_unit"></div>
+					<div id="box_86" class="smallest_unit"></div>
+				</div>
+				<div class="another_bound">
+					<div id="box_87" class="smallest_unit"></div>
+					<div id="box_88" class="smallest_unit"></div>
+					<div id="box_89" class="smallest_unit"></div>
+				</div>
+			</div><div id="row_9">
+				<div class="another_bound">
+					<div id="box_91" class="smallest_unit"></div>
+					<div id="box_92" class="smallest_unit"></div>
+					<div id="box_93" class="smallest_unit"></div>
+				</div>
+				<div class="another_bound">
+					<div id="box_95" class="smallest_unit"></div>
+					<div id="box_94" class="smallest_unit"></div>
+					<div id="box_96" class="smallest_unit"></div>
+				</div>
+				<div class="another_bound">
+					<div id="box_97" class="smallest_unit"></div>
+					<div id="box_98" class="smallest_unit"></div>
+					<div id="box_99" class="smallest_unit"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
